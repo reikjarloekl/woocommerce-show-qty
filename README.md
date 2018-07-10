@@ -11,3 +11,7 @@ To install the plugin, copy the folder to wp-content/plugins in your wordpress d
 In any location in Wordpress that accepts [shortcodes](https://codex.wordpress.org/shortcode), you can place the code [show_qty id="<product id>"]. You need to replace \<product id\> with the id of the Woocommerce product that you want to display the remaining quantity in stock for. You can find the product id by going to the Woocommerce products list and hovering the mouse over the product you need. This will reveal the product id:
 
 ![Screenshot of Woocommerce product list](woocommerce-find-product-id.png?raw=true)
+
+# Credits
+
+The code for this plugin is entire taken from [Alok Jain](http://hsrtech.com/snippets/product-quantity-shortcode-woocommerce) with his kind permission.
