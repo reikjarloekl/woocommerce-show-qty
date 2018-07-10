@@ -14,4 +14,4 @@ In any location in Wordpress that accepts [shortcodes](https://codex.wordpress.o
 
 # Credits
 
-The code for this plugin is entire taken from [Alok Jain](http://hsrtech.com/snippets/product-quantity-shortcode-woocommerce) with his kind permission.
+The code for this plugin is entirely taken from [Alok Jain](http://hsrtech.com/snippets/product-quantity-shortcode-woocommerce) with his kind permission.
