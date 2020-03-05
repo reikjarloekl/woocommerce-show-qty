@@ -25,9 +25,12 @@ jobs:
     - name: Zip Release
       uses: TheDoctor0/zip-release@v0.2.1
 
-    - name: Action Release
-      uses: yakuhzi/action-release@v1.2.0
+    - uses: "marvinpinto/action-automatic-releases@latest"
       with:
-        # File to upload to the release
-        file: release.zip
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: true
+        title: "Development Build"
+        files: |
+          *.zip
 
